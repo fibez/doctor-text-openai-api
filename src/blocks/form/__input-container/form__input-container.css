@@ -1,0 +1,6 @@
+.form__input-container {
+  display: flex;
+  flex-direction: column;
+  align-self: top;
+  max-width: 288px;
+}

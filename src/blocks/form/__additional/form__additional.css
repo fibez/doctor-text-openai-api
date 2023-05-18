@@ -1,0 +1,13 @@
+.form__additional {
+  margin: 5px 0 0;
+  min-height: 150px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.form__additional:focus {
+  outline: none;
+  border-color: rgba(57, 159, 174, 0.614);
+}

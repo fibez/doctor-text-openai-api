@@ -1,0 +1,9 @@
+.navbar__element {
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+.navbar__element:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,11 @@
+.form__delete-tag-button {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.form__delete-tag-button:hover {
+  opacity: 0.6;
+}

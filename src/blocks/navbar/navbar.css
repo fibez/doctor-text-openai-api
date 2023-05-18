@@ -1,0 +1,9 @@
+.navbar {
+  margin: 0;
+  padding: 0;
+  color: #399fae;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}

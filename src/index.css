@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__logo-container/header__logo-container.css);
+@import url(./blocks/header/__logo-title/header__logo-title.css);
+
+@import url(./blocks/navbar/navbar.css);
+@import url(./blocks/navbar/__element/navbar__element.css);
+
+@import url(./blocks/main/main.css);
+
+@import url(./blocks/form/form.css);
+@import url(./blocks/form/__title/form__title.css);
+@import url(./blocks/form/__description/_main-info/form__descriptioon_main-info.css);
+@import url(./blocks/form/__description/_competencies/form__description_competencies.css);
+@import url(.//blocks/form/__submit-button/form__submit-button.css);
+@import url(./blocks/form/__description/form__description.css);
+@import url(./blocks/form/__input/form__input.css);
+@import url(./blocks/form/__input-container/form__input-container.css);
+@import url(./blocks/form/__tags/form__tags.css);
+@import url(./blocks/form/__tag-element/form__tag-element.css);
+@import url(./blocks/form/__delete-tag-button/form__delete-tag-button.css);
+@import url(./blocks/form/__additional/form__additional.css);
+@import url(./blocks/form/__textarea/form__textarea.css);
+/* @import url(./blocks/form/__input/_additional/form__input__additional.css); */
+
+@import url(./blocks/response/response.css);
+@import url(./blocks/response/__text/response__text.css);
+@import url(./blocks/response/__copy-button/response__copy-button.css);

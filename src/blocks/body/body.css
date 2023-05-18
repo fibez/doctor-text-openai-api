@@ -1,0 +1,12 @@
+body {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0;
+  padding: 45px 120px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+  font-family: 'Nunito', sans-serif;
+  color: rgb(214, 214, 214);
+  letter-spacing: 3px;
+}

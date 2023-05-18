@@ -1,0 +1,9 @@
+.form__input_additional {
+  width: 100%;
+  display: flex;
+  border: none;
+}
+
+.form__input_additional::placeholder {
+  /* color: red; */
+}

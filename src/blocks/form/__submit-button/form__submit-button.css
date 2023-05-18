@@ -1,0 +1,19 @@
+.form__submit-button {
+  margin: 25px 0 25px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  width: 160px;
+  height: 30px;
+  /* grid-area: button; */
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+  color: rgb(57, 159, 174);
+  text-align: left;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.form__submit-button:hover {
+  opacity: 0.6;
+}

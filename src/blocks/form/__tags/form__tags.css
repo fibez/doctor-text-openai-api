@@ -1,0 +1,7 @@
+.form__tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0;
+  padding: 0;
+}
