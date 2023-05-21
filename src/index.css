@@ -16,7 +16,6 @@
 @import url(./blocks/form/form.css);
 @import url(./blocks/form/__title/form__title.css);
 @import url(./blocks/form/__description/_main-info/form__descriptioon_main-info.css);
-@import url(./blocks/form/__description/_competencies/form__description_competencies.css);
 @import url(.//blocks/form/__submit-button/form__submit-button.css);
 @import url(./blocks/form/__description/form__description.css);
 @import url(./blocks/form/__input/form__input.css);
@@ -26,7 +25,6 @@
 @import url(./blocks/form/__delete-tag-button/form__delete-tag-button.css);
 @import url(./blocks/form/__additional/form__additional.css);
 @import url(./blocks/form/__textarea/form__textarea.css);
-/* @import url(./blocks/form/__input/_additional/form__input__additional.css); */
 
 @import url(./blocks/response/response.css);
 @import url(./blocks/response/__text/response__text.css);

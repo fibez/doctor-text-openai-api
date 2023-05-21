@@ -7,3 +7,9 @@
   letter-spacing: 5px;
   text-transform: lowercase;
 }
+
+@media screen and (max-width: 900px) {
+  .header__logo-title {
+    font-size: 28px;
+  }
+}

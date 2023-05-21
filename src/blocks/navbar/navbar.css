@@ -7,3 +7,15 @@
   font-weight: 400;
   letter-spacing: 3px;
 }
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .navbar {
+    margin-left: 20px;
+  }
+}
