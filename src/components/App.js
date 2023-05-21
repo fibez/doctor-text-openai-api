@@ -6,7 +6,7 @@ import { api } from '../utils/api';
 import { useEffect, useState } from 'react';
 
 function App() {
-  const [doctorText, setDoctorText] = useState('');
+  const [doctorText, setDoctorText] = useState('....');
 
   function getDoctorText(doctorInfo) {
     Promise.resolve(api.askChat(doctorInfo)).then((res) => {
