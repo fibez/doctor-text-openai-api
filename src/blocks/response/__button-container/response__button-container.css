@@ -1,0 +1,4 @@
+.response__button-container {
+  display: flex;
+  gap: 10px;
+}

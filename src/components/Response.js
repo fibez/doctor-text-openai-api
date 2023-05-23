@@ -14,10 +14,6 @@ function Response(props) {
         setButtonText('Скопировано');
         setButtonIcon(doneIcon);
       })
-      .catch(() => {
-        setButtonText('Ошибка');
-        setButtonIcon(errorIcon);
-      })
       .finally(() => {
         setTimeout(() => {
           setButtonText('Копировать');
@@ -30,10 +26,16 @@ function Response(props) {
     <>
       <div className="response">
         <p className="response__text">{props.doctorText}</p>
-        <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
-          {buttonText}
-          <img className="response__copy-icon" src={buttonIcon} alt="Иконка копирования текста"></img>
-        </button>
+        <div className="response__button-container">
+          <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
+            {buttonText}
+            <img className="response__copy-icon" src={buttonIcon} alt="Иконка копирования текста"></img>
+          </button>
+          <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
+            {buttonText}
+            <img className="response__copy-icon" src={buttonIcon} alt="Иконка копирования текста"></img>
+          </button>
+        </div>
       </div>
     </>
   );

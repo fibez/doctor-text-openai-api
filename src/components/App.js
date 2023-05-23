@@ -4,6 +4,7 @@ import { Response } from './Response';
 import { Main } from './Main';
 import { api } from '../utils/api';
 import { useEffect, useState } from 'react';
+import { Popup } from './Popup';
 
 function App() {
   const [doctorText, setDoctorText] = useState('....');
@@ -29,6 +30,7 @@ function App() {
         <Form getDoctorText={getDoctorText} />
         <Response doctorText={doctorText} />
       </Main>
+      <Popup />
     </>
   );
 }
