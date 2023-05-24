@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/doctor-text-openai-api/static/css/main.dfa85e4e.css",
-    "main.js": "/doctor-text-openai-api/static/js/main.447a859f.js",
+    "main.css": "/doctor-text-openai-api/static/css/main.f7c5e393.css",
+    "main.js": "/doctor-text-openai-api/static/js/main.15128f26.js",
     "static/js/787.8b8d6f20.chunk.js": "/doctor-text-openai-api/static/js/787.8b8d6f20.chunk.js",
     "static/media/robot-face-svgrepo-com.svg": "/doctor-text-openai-api/static/media/robot-face-svgrepo-com.7a48df6c99344eb5bcc57be0ace9f1a2.svg",
     "index.html": "/doctor-text-openai-api/index.html",
@@ -9,12 +9,12 @@
     "static/media/copy.svg": "/doctor-text-openai-api/static/media/copy.5dc7ec7513aedd0a88cbbb917a73a7be.svg",
     "static/media/close.svg": "/doctor-text-openai-api/static/media/close.8acac475a34c44e4861de12f2d213e0e.svg",
     "static/media/done.svg": "/doctor-text-openai-api/static/media/done.06e6c2b339f4964f9a25031e3769e5d5.svg",
-    "main.dfa85e4e.css.map": "/doctor-text-openai-api/static/css/main.dfa85e4e.css.map",
-    "main.447a859f.js.map": "/doctor-text-openai-api/static/js/main.447a859f.js.map",
+    "main.f7c5e393.css.map": "/doctor-text-openai-api/static/css/main.f7c5e393.css.map",
+    "main.15128f26.js.map": "/doctor-text-openai-api/static/js/main.15128f26.js.map",
     "787.8b8d6f20.chunk.js.map": "/doctor-text-openai-api/static/js/787.8b8d6f20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfa85e4e.css",
-    "static/js/main.447a859f.js"
+    "static/css/main.f7c5e393.css",
+    "static/js/main.15128f26.js"
   ]
 }
