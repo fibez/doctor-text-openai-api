@@ -28,7 +28,7 @@ class Api {
   }
 }
 
-const api = new Api('https://gpt-api-maksimtarhov-gmailcom.vercel.app/');
+const api = new Api('https://gpt-api-maksimtarhov-gmailcom.vercel.app');
 
 // const api = new Api('http://123192.168.100.11:8000');
 export { api };
