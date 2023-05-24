@@ -88,7 +88,7 @@ function Form(props) {
             <li className="form__tag-element" key={`${tag}-${index}`}>
               {tag}
               <div className="form__delete-tag-button" type="button" onClick={() => handleDelete(tag, 'diseases')}>
-                <img src={closeIcon} alt="Иконка удаления тэга"></img>
+                <img className="form__delete-tag-button-icon" src={closeIcon} alt="Иконка удаления тэга"></img>
               </div>
             </li>
           ))}
@@ -110,7 +110,7 @@ function Form(props) {
                 type="button"
                 onClick={() => handleDelete(tag, 'diagnosedDiseases')}
               >
-                <img src={closeIcon} alt="Иконка удаления тэга"></img>
+                <img className="form__delete-tag-button-icon" src={closeIcon} alt="Иконка удаления тэга"></img>
               </div>
             </li>
           ))}
@@ -128,7 +128,7 @@ function Form(props) {
             <li className="form__tag-element" key={`${tag}-${index}`}>
               {tag}
               <div className="form__delete-tag-button" type="button" onClick={() => handleDelete(tag, 'diagnostic')}>
-                <img src={closeIcon} alt="Иконка удаления тэга"></img>
+                <img className="form__delete-tag-button-icon" src={closeIcon} alt="Иконка удаления тэга"></img>
               </div>
             </li>
           ))}
@@ -146,7 +146,7 @@ function Form(props) {
             <li className="form__tag-element" key={`${tag}-${index}`}>
               {tag}
               <div className="form__delete-tag-button" type="button" onClick={() => handleDelete(tag, 'manipulations')}>
-                <img src={closeIcon} alt="Иконка удаления тэга"></img>
+                <img className="form__delete-tag-button-icon" src={closeIcon} alt="Иконка удаления тэга"></img>
               </div>
             </li>
           ))}

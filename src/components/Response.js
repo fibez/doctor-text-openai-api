@@ -27,10 +27,10 @@ function Response(props) {
       <div className="response">
         <p className="response__text">{props.doctorText}</p>
         <div className="response__button-container">
-          <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
+          {/* <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
             {buttonText}
             <img className="response__copy-icon" src={buttonIcon} alt="Иконка копирования текста"></img>
-          </button>
+          </button> */}
           <button className="response__copy-button" alt="Копировать ответ" onClick={handleCopyToClipboard}>
             {buttonText}
             <img className="response__copy-icon" src={buttonIcon} alt="Иконка копирования текста"></img>
