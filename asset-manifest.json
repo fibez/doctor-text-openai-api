@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/doctor-text-openai-api/static/css/main.dfa85e4e.css",
-    "main.js": "/doctor-text-openai-api/static/js/main.0929e687.js",
+    "main.js": "/doctor-text-openai-api/static/js/main.447a859f.js",
     "static/js/787.8b8d6f20.chunk.js": "/doctor-text-openai-api/static/js/787.8b8d6f20.chunk.js",
     "static/media/robot-face-svgrepo-com.svg": "/doctor-text-openai-api/static/media/robot-face-svgrepo-com.7a48df6c99344eb5bcc57be0ace9f1a2.svg",
     "index.html": "/doctor-text-openai-api/index.html",
@@ -10,11 +10,11 @@
     "static/media/close.svg": "/doctor-text-openai-api/static/media/close.8acac475a34c44e4861de12f2d213e0e.svg",
     "static/media/done.svg": "/doctor-text-openai-api/static/media/done.06e6c2b339f4964f9a25031e3769e5d5.svg",
     "main.dfa85e4e.css.map": "/doctor-text-openai-api/static/css/main.dfa85e4e.css.map",
-    "main.0929e687.js.map": "/doctor-text-openai-api/static/js/main.0929e687.js.map",
+    "main.447a859f.js.map": "/doctor-text-openai-api/static/js/main.447a859f.js.map",
     "787.8b8d6f20.chunk.js.map": "/doctor-text-openai-api/static/js/787.8b8d6f20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfa85e4e.css",
-    "static/js/main.0929e687.js"
+    "static/js/main.447a859f.js"
   ]
 }
