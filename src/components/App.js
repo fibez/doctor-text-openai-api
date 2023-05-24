@@ -8,6 +8,9 @@ import { Popup } from './Popup';
 
 function App() {
   const [doctorText, setDoctorText] = useState('....');
+  const [isPopupOpened, setPopupOpened] = useState(false);
+  const [popupTitle, setPopupTitle] = useState('');
+  const [popupDescription, setPopupDescription] = useState('');
 
   function getDoctorText(doctorInfo) {
     Promise.resolve(api.askChat(doctorInfo)).then((res) => {
@@ -16,21 +19,43 @@ function App() {
   }
 
   useEffect(() => {
-    api.request('get', 'GET').then((res) => {
-      if (res) {
-        console.log('ok');
-      }
-    });
+    api
+      .request('get', 'GET')
+      .then((res) => {
+        if (res) {
+          console.log('ok');
+        } else {
+          setPopupOpened(true);
+          setPopupTitle('Ошибка сервера');
+          setPopupDescription(res);
+        }
+      })
+      .catch((err) => {
+        console.log(err.status);
+      });
   }, []);
+
+  function handleSetPopupOpened() {
+    setPopupOpened(true);
+  }
+
+  function closePopup() {
+    setPopupOpened(false);
+  }
 
   return (
     <>
       <Header />
       <Main>
-        <Form getDoctorText={getDoctorText} />
+        <Form getDoctorText={getDoctorText} setPopupOpened={handleSetPopupOpened} />
         <Response doctorText={doctorText} />
       </Main>
-      <Popup />
+      <Popup
+        closePopup={closePopup}
+        isPopupOpened={isPopupOpened}
+        popupTitle={popupTitle}
+        popupDescription={popupDescription}
+      />
     </>
   );
 }
