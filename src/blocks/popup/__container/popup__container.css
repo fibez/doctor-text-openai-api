@@ -6,4 +6,6 @@
   background-color: #fff;
   border-radius: 10px;
   align-self: center;
+  min-width: 300px;
+  padding: 20px 30px;
 }
